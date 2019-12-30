@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad12_9" orientation="portrait" layout="fullscreen" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +10,103 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="GraphicStitching" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cvl-f8-xNc">
+                                <rect key="frame" x="481" y="32" width="62" height="30"/>
+                                <state key="normal" title="合成图片"/>
+                                <connections>
+                                    <action selector="CompositePictureButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Li-P6-dKU"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nNX-Fh-ij7">
+                                <rect key="frame" x="241" y="100" width="542" height="1865.5"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="l0V-dN-3dY">
+                                        <rect key="frame" x="0.0" y="0.0" width="542" height="1865.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="542" id="l0O-O2-xVx"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1IC-oa-jFk">
+                                        <rect key="frame" x="20" y="240" width="502" height="1385.5"/>
+                                        <string key="text">君不見黃河之水天上來，奔流到海不復回！
+君不見高堂明鏡悲白髮，朝如青絲暮成雪。
+人生得意須盡歡，莫使金樽空對月。
+天生我材必有用，千金散盡還復來。
+烹羊宰牛且為樂，會須一飲三百杯。
+岑夫子，丹丘生，將進酒，杯莫停。
+與君歌一曲，請君為我傾耳聽。
+鐘鼓饌玉何足貴，但願長醉不復醒。
+古來聖賢皆寂寞，唯有飲者留其名。
+陳王昔時宴平樂，斗酒十千恣讙謔。
+主人何為言少錢，徑須沽取對君酌。
+五花馬，千金裘，
+呼兒將出換美酒，與爾同銷萬古愁。君不見黃河之水天上來，奔流到海不復回！
+君不見高堂明鏡悲白髮，朝如青絲暮成雪。
+人生得意須盡歡，莫使金樽空對月。
+天生我材必有用，千金散盡還復來。
+烹羊宰牛且為樂，會須一飲三百杯。
+岑夫子，丹丘生，將進酒，杯莫停。
+與君歌一曲，請君為我傾耳聽。
+鐘鼓饌玉何足貴，但願長醉不復醒。
+古來聖賢皆寂寞，唯有飲者留其名。
+陳王昔時宴平樂，斗酒十千恣讙謔。
+主人何為言少錢，徑須沽取對君酌。
+五花馬，千金裘，
+呼兒將出換美酒，與爾同銷萬古愁。君不見黃河之水天上來，奔流到海不復回！
+君不見高堂明鏡悲白髮，朝如青絲暮成雪。
+人生得意須盡歡，莫使金樽空對月。
+天生我材必有用，千金散盡還復來。
+烹羊宰牛且為樂，會須一飲三百杯。
+岑夫子，丹丘生，將進酒，杯莫停。
+與君歌一曲，請君為我傾耳聽。
+鐘鼓饌玉何足貴，但願長醉不復醒。
+古來聖賢皆寂寞，唯有飲者留其名。
+陳王昔時宴平樂，斗酒十千恣讙謔。
+主人何為言少錢，徑須沽取對君酌。
+五花馬，千金裘，
+呼兒將出換美酒，與爾同銷萬古愁。、</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="l0V-dN-3dY" firstAttribute="trailing" secondItem="1IC-oa-jFk" secondAttribute="trailing" constant="20" id="5ZF-46-1sV"/>
+                                    <constraint firstAttribute="trailing" secondItem="l0V-dN-3dY" secondAttribute="trailing" id="Opw-i6-uu0"/>
+                                    <constraint firstItem="1IC-oa-jFk" firstAttribute="leading" secondItem="l0V-dN-3dY" secondAttribute="leading" constant="20" id="UC9-uF-dtd"/>
+                                    <constraint firstItem="l0V-dN-3dY" firstAttribute="bottom" secondItem="1IC-oa-jFk" secondAttribute="bottom" constant="240" id="Vm5-5o-GU9"/>
+                                    <constraint firstAttribute="bottom" secondItem="l0V-dN-3dY" secondAttribute="bottom" id="Xht-zZ-OF6"/>
+                                    <constraint firstItem="1IC-oa-jFk" firstAttribute="top" secondItem="l0V-dN-3dY" secondAttribute="top" constant="240" id="dvr-8p-87g"/>
+                                    <constraint firstItem="l0V-dN-3dY" firstAttribute="leading" secondItem="nNX-Fh-ij7" secondAttribute="leading" id="pVy-19-heV"/>
+                                    <constraint firstItem="l0V-dN-3dY" firstAttribute="top" secondItem="nNX-Fh-ij7" secondAttribute="top" id="yoC-Sh-4ag"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="cvl-f8-xNc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="32" id="291-lV-vTh"/>
+                            <constraint firstItem="nNX-Fh-ij7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="5b4-4d-cod"/>
+                            <constraint firstItem="cvl-f8-xNc" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="en5-IG-j9Y"/>
+                            <constraint firstItem="nNX-Fh-ij7" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="pL5-bO-Ppu"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="containerView" destination="nNX-Fh-ij7" id="Kyq-a6-5PA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="431.8359375" y="88.726207906295741"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bg" width="542" height="776"/>
+    </resources>
 </document>

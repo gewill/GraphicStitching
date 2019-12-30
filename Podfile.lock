@@ -1,0 +1,112 @@
+PODS:
+  - BSBacktraceLogger (0.0.1)
+  - CocoaLumberjack (3.6.0):
+    - CocoaLumberjack/Core (= 3.6.0)
+  - CocoaLumberjack/Core (3.6.0)
+  - DoraemonKit/Core (1.2.4):
+    - BSBacktraceLogger
+    - fishhook
+  - DoraemonKit/WithLoad (1.2.4):
+    - BSBacktraceLogger
+    - DoraemonKit/Core
+    - fishhook
+  - DoraemonKit/WithLogger (1.2.4):
+    - BSBacktraceLogger
+    - CocoaLumberjack
+    - DoraemonKit/Core
+    - fishhook
+  - fishhook (0.2)
+  - LookinServer (1.0.0)
+  - QMUIKit/QMUIComponents/QMUIButton (4.0.4):
+    - QMUIKit/QMUICore
+  - QMUIKit/QMUIComponents/QMUICollectionViewPagingLayout (4.0.4):
+    - QMUIKit/QMUICore
+  - QMUIKit/QMUIComponents/QMUIFillButton (4.0.4):
+    - QMUIKit/QMUIComponents/QMUIButton
+    - QMUIKit/QMUICore
+  - QMUIKit/QMUIComponents/QMUIFloatLayoutView (4.0.4):
+    - QMUIKit/QMUICore
+  - QMUIKit/QMUIComponents/QMUIGhostButton (4.0.4):
+    - QMUIKit/QMUIComponents/QMUIButton
+    - QMUIKit/QMUICore
+  - QMUIKit/QMUIComponents/QMUIGridView (4.0.4):
+    - QMUIKit/QMUICore
+  - QMUIKit/QMUIComponents/QMUIKeyboardManager (4.0.4):
+    - QMUIKit/QMUICore
+  - QMUIKit/QMUIComponents/QMUILabel (4.0.4):
+    - QMUIKit/QMUICore
+  - QMUIKit/QMUIComponents/QMUIMultipleDelegates (4.0.4):
+    - QMUIKit/QMUICore
+  - QMUIKit/QMUIComponents/QMUITableView (4.0.4):
+    - QMUIKit/QMUIComponents/QMUITableViewProtocols
+    - QMUIKit/QMUICore
+  - QMUIKit/QMUIComponents/QMUITableViewProtocols (4.0.4):
+    - QMUIKit/QMUICore
+  - QMUIKit/QMUIComponents/QMUITextField (4.0.4):
+    - QMUIKit/QMUIComponents/QMUIMultipleDelegates
+    - QMUIKit/QMUICore
+  - QMUIKit/QMUIComponents/QMUITextView (4.0.4):
+    - QMUIKit/QMUIComponents/QMUILabel
+    - QMUIKit/QMUIComponents/QMUIMultipleDelegates
+    - QMUIKit/QMUICore
+  - QMUIKit/QMUIComponents/QMUITips (4.0.4):
+    - QMUIKit/QMUIComponents/QMUIToastView
+    - QMUIKit/QMUICore
+  - QMUIKit/QMUIComponents/QMUIToastView (4.0.4):
+    - QMUIKit/QMUIComponents/QMUIKeyboardManager
+    - QMUIKit/QMUIComponents/QMUIVisualEffectView
+    - QMUIKit/QMUICore
+  - QMUIKit/QMUIComponents/QMUIVisualEffectView (4.0.4):
+    - QMUIKit/QMUICore
+  - QMUIKit/QMUICore (4.0.4):
+    - QMUIKit/QMUILog
+    - QMUIKit/QMUIWeakObjectContainer
+  - QMUIKit/QMUILog (4.0.4)
+  - QMUIKit/QMUIWeakObjectContainer (4.0.4)
+  - SKPhotoBrowser (6.1.0)
+  - WoodPeckeriOS (1.2.4)
+
+DEPENDENCIES:
+  - DoraemonKit/Core (~> 1.2.2)
+  - DoraemonKit/WithLoad (~> 1.2.2)
+  - DoraemonKit/WithLogger (~> 1.2.2)
+  - LookinServer
+  - QMUIKit/QMUIComponents/QMUIButton
+  - QMUIKit/QMUIComponents/QMUICollectionViewPagingLayout
+  - QMUIKit/QMUIComponents/QMUIFillButton
+  - QMUIKit/QMUIComponents/QMUIFloatLayoutView
+  - QMUIKit/QMUIComponents/QMUIGhostButton
+  - QMUIKit/QMUIComponents/QMUIGridView
+  - QMUIKit/QMUIComponents/QMUILabel
+  - QMUIKit/QMUIComponents/QMUITableView
+  - QMUIKit/QMUIComponents/QMUITextField
+  - QMUIKit/QMUIComponents/QMUITextView
+  - QMUIKit/QMUIComponents/QMUITips
+  - QMUIKit/QMUICore
+  - SKPhotoBrowser
+  - WoodPeckeriOS
+
+SPEC REPOS:
+  trunk:
+    - BSBacktraceLogger
+    - CocoaLumberjack
+    - DoraemonKit
+    - fishhook
+    - LookinServer
+    - QMUIKit
+    - SKPhotoBrowser
+    - WoodPeckeriOS
+
+SPEC CHECKSUMS:
+  BSBacktraceLogger: 06b983ee93a9f87d957960e9c73d660d5966b447
+  CocoaLumberjack: 78b0c238666f4f58db069738ec176f4519557516
+  DoraemonKit: 5328b8b57cd900f6a24f7f66051346dd4409437d
+  fishhook: ea19933abfe8f2f52c55fd8b6e2718467d3ebc89
+  LookinServer: 0002891cd3cec5e082a910e897dfe71b4f06b89e
+  QMUIKit: 73899f707bdd51f44d16e10d11f224fb821fbe74
+  SKPhotoBrowser: 343de95d89dc7913763c5dda243cc6e606e4a168
+  WoodPeckeriOS: bff163c8c996efd45e2fb562f68f6db7f901ac90
+
+PODFILE CHECKSUM: eae133e527545ecc891c5901ec67a13f776fabb9
+
+COCOAPODS: 1.8.4
