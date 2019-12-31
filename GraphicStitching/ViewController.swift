@@ -20,8 +20,6 @@ class ViewController: UIViewController {
 
     // MARK: - properties
 
-    var data: [String] = []
-
     // MARK: - life cycle
 
     override func viewDidLoad() {
@@ -35,18 +33,14 @@ class ViewController: UIViewController {
             let csv = try? CSV(url: URL(fileURLWithPath: path)) else {
             return
         }
-        contentL.text = csv.namedRows.reduce("", { (result, value) -> String in
-            result + "\(value)"
-        })
 
         guard let col = csv.namedColumns["key"] else {
             return
         }
-//        contentL.text = col.reduce("", { $0 + $1 })
 
         timer = Repeater.every(.seconds(3), count: col.count) { timer in
             if let remainingIterations = timer.remainingIterations {
-                if remainingIterations > 0 {
+                if remainingIterations >= 0 {
                     self.save(with: col[remainingIterations])
                     print(#function)
                 }
