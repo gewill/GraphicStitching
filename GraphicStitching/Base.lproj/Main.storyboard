@@ -99,6 +99,7 @@
                     </view>
                     <connections>
                         <outlet property="containerView" destination="nNX-Fh-ij7" id="Kyq-a6-5PA"/>
+                        <outlet property="contentL" destination="1IC-oa-jFk" id="802-pN-S6Q"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

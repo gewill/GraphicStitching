@@ -16,6 +16,7 @@
 		BE9A1AD523B9DA7E0090D8D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE9A1AD323B9DA7E0090D8D8 /* LaunchScreen.storyboard */; };
 		BE9A1ADF23B9E6AB0090D8D8 /* PhotoBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9A1ADE23B9E6AB0090D8D8 /* PhotoBrowser.swift */; };
 		BE9A1AE123B9E6D30090D8D8 /* ViewControllerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9A1AE023B9E6D30090D8D8 /* ViewControllerHelper.swift */; };
+		BED2A37723BAF31700EA55CA /* poetry.csv in Resources */ = {isa = PBXBuildFile; fileRef = BED2A37623BAF31700EA55CA /* poetry.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		BE9A1AD623B9DA7E0090D8D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE9A1ADE23B9E6AB0090D8D8 /* PhotoBrowser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoBrowser.swift; sourceTree = "<group>"; };
 		BE9A1AE023B9E6D30090D8D8 /* ViewControllerHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerHelper.swift; sourceTree = "<group>"; };
+		BED2A37623BAF31700EA55CA /* poetry.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = poetry.csv; sourceTree = "<group>"; };
 		CE9095C0AF6807EB7A3A4B5C /* Pods_GraphicStitching.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GraphicStitching.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -89,6 +91,7 @@
 				BE9A1ACC23B9DA7D0090D8D8 /* ViewController.swift */,
 				BE9A1ADE23B9E6AB0090D8D8 /* PhotoBrowser.swift */,
 				BE9A1AE023B9E6D30090D8D8 /* ViewControllerHelper.swift */,
+				BED2A37623BAF31700EA55CA /* poetry.csv */,
 				BE9A1ACE23B9DA7D0090D8D8 /* Main.storyboard */,
 				BE9A1AD123B9DA7E0090D8D8 /* Assets.xcassets */,
 				BE9A1AD323B9DA7E0090D8D8 /* LaunchScreen.storyboard */,
@@ -157,6 +160,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BED2A37723BAF31700EA55CA /* poetry.csv in Resources */,
 				BE9A1AD523B9DA7E0090D8D8 /* LaunchScreen.storyboard in Resources */,
 				BE9A1AD223B9DA7E0090D8D8 /* Assets.xcassets in Resources */,
 				BE9A1AD023B9DA7D0090D8D8 /* Main.storyboard in Resources */,

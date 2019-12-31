@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+ platform :ios, '13.0'
 
 target 'GraphicStitching' do
   # Comment the next line if you don't want to use dynamic frameworks
@@ -7,7 +7,8 @@ target 'GraphicStitching' do
 
   # Pods for GraphicStitching
   pod 'SKPhotoBrowser'
-  
+  pod 'SwiftCSV'
+  pod 'Repeat'
   
   # QMUIKit 精简配置
   pod 'QMUIKit/QMUICore'
@@ -26,5 +27,6 @@ target 'GraphicStitching' do
 
   # debug pods
   # UI调试工具
-  pod 'LookinServer', :œ => ['Debug']
+  pod 'LookinServer', :configurations => ['Debug']
+  pod 'WoodPeckeriOS', :configurations => ['Debug']
 end
